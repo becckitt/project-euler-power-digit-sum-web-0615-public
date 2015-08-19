@@ -5,5 +5,7 @@ describe "#power_digit_sum" do
     expect(Base64.encode64(power_digit_sum(2, 1000).to_s)).to eq(encrypted_answer)
   end
 
-  it "takes a base(x) and exponent (n) as args and returns the sum of those digits" do
+  # it "takes a base(x) and exponent (n) as args and returns the sum of those digits" do
+  # 	expect(power_digit_sum(2,4).to_s.to eq(7))
+  # end
 end
